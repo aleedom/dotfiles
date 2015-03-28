@@ -114,7 +114,7 @@ source ~/.git-completion.bash
 
 #colors
 green="\[\033[0;32m\]"
-blue="\[\033[0;34m\]"
+blue="\[\033[0;34m\]"	
 purple="\[\033[0;35m\]"
 reset="\[\033[0m\]"
 
