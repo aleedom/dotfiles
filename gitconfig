@@ -1,7 +1,7 @@
 [user]
 	email = aleeodm25@gmail.com
 [core]
-	edior = vim
+	editor = vim
 [push]
 	default = upstream
 [merge]
