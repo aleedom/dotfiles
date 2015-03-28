@@ -1,0 +1,2 @@
+<, > clear hilight from search
+InterestingWord1
