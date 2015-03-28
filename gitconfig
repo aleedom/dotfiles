@@ -1,0 +1,10 @@
+[user]
+	email = aleeodm25@gmail.com
+[core]
+	edior = vim
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
+[credential]
+	helper = cache --timeout=3600
