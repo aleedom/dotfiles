@@ -1,7 +1,6 @@
 alias ls='ls --color=auto'
 alias ll='ls -l'
 alias la='ls -A'
-alias rm='mv -t ~/.local/share/Trash/files'
 alias cp='cp -i'
 alias mv='mv -i'
 alias mkdir='mkdir -p -v'
@@ -14,3 +13,5 @@ alias downloads='cd ~/Downloads'
 alias cs214='cd ~/school/spring_2014/214'
 alias school='cd ~/school/fall_2015/'
 alias install='sudo apt-get install'
+
+alias docker-down='docker stop $(docker ps -aq) && docker rm $(docker ps -aq)'

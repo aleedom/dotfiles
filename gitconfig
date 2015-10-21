@@ -2,6 +2,7 @@
 	email = aleeodm25@gmail.com
 [core]
 	editor = vim
+	excludesfile = /home/andy/.gitignore_global
 [push]
 	default = upstream
 [merge]

@@ -125,3 +125,5 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 # '\$(__git_ps1)' adds git-related stuff
 # '\W' adds the name of the current directory
 export PS1="$purple\u$green\$(__git_ps1)$blue \w $ $reset"
+
+source /usr/local/bin/virtualenvwrapper.sh
