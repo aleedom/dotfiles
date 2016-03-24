@@ -15,3 +15,4 @@ alias school='cd ~/school/fall_2015/'
 alias install='sudo apt-get install'
 
 alias docker-down='docker stop $(docker ps -aq) && docker rm $(docker ps -aq)'
+alias gs='git status'
