@@ -1,5 +1,6 @@
 [user]
-	email = aleeodm25@gmail.com
+	email = andrew.leedom@addteq.com
+	name = Andrew Leedom
 [core]
 	editor = vim
 	excludesfile = /home/andy/.gitignore_global
