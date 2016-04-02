@@ -14,4 +14,6 @@ alias cs214='cd ~/school/spring_2014/214'
 alias school='cd ~/school/fall_2015/'
 alias install='sudo apt-get install'
 
+
+alias crossbar='/opt/crossbar/bin/crossbar'
 alias docker-down='docker stop $(docker ps -aq) && docker rm $(docker ps -aq)'
