@@ -1,4 +1,5 @@
 alias ls='ls --color=auto'
+alias LS='ls -al'
 alias ll='ls -l'
 alias la='ls -A'
 alias cp='cp -i'
@@ -17,3 +18,4 @@ alias install='sudo apt-get install'
 
 alias crossbar='/opt/crossbar/bin/crossbar'
 alias docker-down='docker stop $(docker ps -aq) && docker rm $(docker ps -aq)'
+alias gs='git status'

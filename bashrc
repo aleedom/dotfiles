@@ -124,6 +124,12 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 # '\u' adds the name of the current user to the prompt
 # '\$(__git_ps1)' adds git-related stuff
 # '\W' adds the name of the current directory
-export PS1="$purple\u$green\$(__git_ps1)$blue \w $ $reset"
+# '\h adds the current hostname
+export PS1="$purple\u$blue@$purple\h$green\$(__git_ps1)$blue\$(python ~/dotfiles/path.py)$ $reset"
 
+file=/usr/local/bin/virtualenvwrapper.sh 
+if [ ! -e "$file" ] ; then
+	touch "$file"
+fi 
 source /usr/local/bin/virtualenvwrapper.sh
+
