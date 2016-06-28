@@ -1,7 +1,5 @@
 import os
 
-
-from commands import getoutput
 from socket import gethostname
 hostname = gethostname()
 username = os.environ['USER']
