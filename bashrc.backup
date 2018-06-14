@@ -128,7 +128,7 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 # '\h adds the current hostname
 export PS1="$purple\u$blue@$purple\h$green\$(__git_ps1)$blue\$(python ~/dotfiles/path.py)$yellow$ $reset"
 
-file=/usr/local/bin/virtualenvwrapper.sh
+file=/Library/Frameworks/Python.framework/Versions/3.5/bin/virtualenvwrapper.sh
 if [ ! -e "$file" ] ; then
 	touch "$file"
 fi 
@@ -137,24 +137,3 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
 fi
 
-
-export PATH=$PATH:/Users/andrewleedom/bin
-
-source '/Users/andrewleedom/lib/azure-cli/az.completion'
-
-
-export GOPATH=$HOME/go
-export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin
-
-export ASPNETCORE_ENVIRONMENT=DEVELOPMENT
-
-# pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
-# virtualenv wrapper
-export WORKON_HOME=~/Envs
-
-source /usr/local/bin/virtualenvwrapper.sh
