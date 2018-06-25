@@ -113,10 +113,11 @@ export TERM="xterm-256color"
 source ~/.git-completion.bash
 
 #colors
-green="\[\033[0;32m\]"
-blue="\[\033[0;34m\]"	
-purple="\[\033[0;35m\]"
-reset="\[\033[0m\]"
+green="\\033[38;5;34m"
+blue="\\033[38;5;75m"
+purple="\\033[38;5;98m"
+yellow="\\033[38;5;226m"
+reset="\\033[38;5;255m"
 
 #change command prompt
 source ~/.git-prompt.sh
@@ -125,7 +126,7 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 # '\$(__git_ps1)' adds git-related stuff
 # '\W' adds the name of the current directory
 # '\h adds the current hostname
-export PS1="$purple\u$blue@$purple\h$green\$(__git_ps1)$blue\$(python ~/dotfiles/path.py)$ $reset"
+export PS1="$purple\u$yellow@$purple\h$green\$(__git_ps1)$blue\$(python ~/dotfiles/path.py)$yellow$ $reset"
 
 file=/usr/local/bin/virtualenvwrapper.sh 
 if [ ! -e "$file" ] ; then
